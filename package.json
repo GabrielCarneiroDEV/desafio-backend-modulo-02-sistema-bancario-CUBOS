@@ -1,0 +1,34 @@
+{
+  "name": "desafio-backend-modulo-02",
+  "version": "1.0.0",
+  "description": "![](https://i.imgur.com/xG74tOh.png)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "test": "jest --watchAll=false --noStackTrace"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.23.0",
+    "express": "^4.17.1",
+    "swagger-autogen": "^2.11.2",
+    "swagger-ui-express": "^4.1.6",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "jest": "^27.0.6",
+    "jest-fail-on-console": "^2.0.4",
+    "supertest": "^6.1.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielCarneiroDEV/desafio-backend-modulo-02-sistema-bancario.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GabrielCarneiroDEV/desafio-backend-modulo-02-sistema-bancario/issues"
+  },
+  "homepage": "https://github.com/GabrielCarneiroDEV/desafio-backend-modulo-02-sistema-bancario#readme"
+}
